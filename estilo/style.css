@@ -25,7 +25,7 @@
 }
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%;/*espaço interno*/
 }
 
 body{
@@ -38,10 +38,10 @@ a.externo::after{
     content: '\00A0\1F517';
 }
 header{
-    background-image: linear-gradient(to bottom,var(--cor2), var(--cor4));
+    background-image: linear-gradient(to bottom,var(--cor2), var(--cor4));/*cor de fundo*/
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 40px; /*espaço interno*/
     text-shadow: 2px 2px 0px black;
 
 }
@@ -53,7 +53,7 @@ header > h1 {
     font-weight: normal;
 }
 header > p {
-    color: aliceblue;
+    color: aliceblue;/*cor de letra*/
     font-family: var(--font-padrao);
     font-size: 1.2em;
     max-width: 500px;
@@ -65,30 +65,30 @@ header > p {
 
 }
 nav{
-    background-image: linear-gradient(to bottom,var(--cor4), var(--cor5));
+    background-image: linear-gradient(to bottom,var(--cor4), var(--cor5));/*cor de fundo*/
         padding: 10px;
         box-shadow: 0px 7px 9px black;
 
     }
     nav > a{
-        color: aliceblue;
-        padding: 10px;
+        color: aliceblue;/*cor de letra*/
+        padding: 10px;/*espaço interno*/
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5s;
     }
     nav >a:hover{
-        background-color: var(--cor3);
-        color: var(--cor5);
+        background-color: var(--cor3);/*cor de fundo*/
+        color: var(--cor5);/*cor de letra*/
     }
     
 main{
-            background-color: aliceblue;
+            background-color: aliceblue;/*cor de fundo*/
             max-width: 1000px;
             min-width: 300px;
             margin: auto;
-            padding: 20px;
+            padding: 20px;/*espaço interno*/
             margin-bottom: 30px;
             box-shadow: 0px 0px 10px black;
             border-bottom-left-radius: 10px;
@@ -96,7 +96,7 @@ main{
         }
 
 main h1{
-    color: var(--cor5);
+    color: var(--cor5);/*cor de letra*/
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.8em
@@ -106,9 +106,9 @@ main > article > h1{
 }
 main h2{
     font-family: var(--font-android);
-    color: var(--cor4);
+    color: var(--cor4);/*cor de letra*/
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--cor1), transparent);/*cor de fundo*/
     font-weight: normal;
 }
 main  p{
@@ -119,9 +119,9 @@ main  p{
     font-size: 1em;
 }
 div.video{
-    background-color: var(--cor5);
+    background-color: var(--cor5);/*cor de fundo*/
     margin: 0px -20px 30px -20px;
-    padding: 20px;
+    padding: 20px;/*espaço interno*/
     padding-bottom: 57%;
     
    
@@ -140,9 +140,9 @@ main img{
 
 }
 main strong{
-    color: var(--cor4);
+    color: var(--cor4);/*cor de letra*/
     font-weight: bold;
-    padding: 2px 6px;
+    padding: 2px 6px;/*espaço interno*/
 }
 main img.pequena{
     max-width: 350px;
@@ -152,23 +152,23 @@ main img.pequena{
 main a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor4);
-    background-color: var(--cor1);
-    padding: 2px 6px;
+    color: var(--cor4);/*cor de letra*/
+    background-color: var(--cor1);/*cor de fundo*/
+    padding: 2px 6px;/*espaço interno*/
 }
 main a:hover{
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor4);/*cor de letra*/
 }
 aside{
-    background-color: var(--cor1);
-    padding: 10px;
+    background-color: var(--cor1);/*cor de fundo*/
+    padding: 10px;/*espaço interno*/
     border-radius: 10px;
 }
 aside >h3{
-    background-color: var(--cor4);
-    color: aliceblue;
-    padding: 10px;
+    background-color: var(--cor4);/*cor de fundo*/
+    color: aliceblue;/*cor de letra*/
+    padding: 10px;/*espaço interno*/
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -179,18 +179,18 @@ aside > ul{
 
 }
 footer{
-    background-color: var(--cor5);
-    color: aliceblue;
+    background-color: var(--cor5);/*cor de fundo*/
+    color: aliceblue;/*cor de letra*/
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 5px;/*espaço interno*/
 }
 footer > p > a{
-    color: white;
+    color: white;/*cor de letra*/
     font-weight: bolder;
     text-decoration: none;
 }
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor1);/*cor de letra*/
 }

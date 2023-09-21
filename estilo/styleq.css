@@ -9,7 +9,7 @@
 }
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%;/*espaço interno*/
 }
 
 :root{
@@ -27,7 +27,7 @@
     --font-android:'Android', cursive;
 }
 header > h1 {
-    color: aliceblue;
+    color: aliceblue;/*cor de letra*/
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
@@ -35,37 +35,37 @@ header > h1 {
 }
 
 header{
-    background-image: linear-gradient(to bottom,var(--cor2), var(--cor4));
+    background-image: linear-gradient(to bottom,var(--cor2), var(--cor4));/*cor de fundo*/
     min-height: 120px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 50px;/*espaço interno*/
     text-shadow: 2px 2px 0px black;
 
 }
 nav{
-    background-image: linear-gradient(to bottom,var(--cor4), var(--cor5));
-        padding: 10px;
+    background-image: linear-gradient(to bottom,var(--cor4), var(--cor5));/*cor de fundo*/
+        padding: 10px;/*espaço interno*/
         box-shadow: 0px 7px 9px black;
 
     }
     nav > a{
-        color: aliceblue;
-        padding: 10px;
+        color: aliceblue;/*cor de letra*/
+        padding: 10px;/*espaço interno*/
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         transition-duration: 0.5s;
     }
     nav >a:hover{
-        background-color: var(--cor3);
-        color: var(--cor5);
+        background-color: var(--cor3);/*cor de fundo*/
+        color: var(--cor5);/*cor de letra*/
     }
 main{
-    background-color: aliceblue;
+    background-color: aliceblue;/*cor de fundo*/
     max-width: 10000px;
     min-width: 300px;
     margin: auto;
-    padding: 20px;
+    padding: 20px;/*espaço interno*/
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
@@ -80,7 +80,7 @@ main p{
     font-size: 1em;
 }
 main h1{
-    color: var(--cor5);
+    color: var(--cor5);/*cor de letra*/
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.3em;
@@ -90,25 +90,25 @@ main > article > h1{
     font-family: var(--font-android);
 }
 main strong{
-    color: var(--cor4);
+    color: var(--cor4);/*cor de letra*/
     font-weight: bold;
 }
 
 footer{
-    background-color: var(--cor5);
-    color: aliceblue;
+    background-color: var(--cor5);/*cor de fundo*/
+    color: aliceblue;/*cor de letra*/
     text-align: center;
     font-size: 1.3em;
-    padding: 10px;
+    padding: 10px;/*espaço interno*/
     
 }
 footer > p > a{
-    color: white;
+    color: white;/*cor de letra*/
     font-weight: bolder;
     text-decoration: none;
 
 }
 footer a:hover{
     text-decoration:underline;
-    color: var(--cor1);
+    color: var(--cor1);/*cor de letra*/
 }
